@@ -10,7 +10,7 @@ import 'package:news_app/model/NewsArticle.dart';
 class NewsApi
 {
   final String _baseUrl = "https://newsapi.org/v2";
-  final String _apiKey = "f2a71445f9b64304a04b376d9c585b6b";
+  final String _apiKey = "";
 
   Future<List<NewsArticle>> _getNewsArticlesUtil(String url) async
   {
