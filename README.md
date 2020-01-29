@@ -1,15 +1,25 @@
-# news_app
+# News App
 
-News App
+News app showing implementation of HTTP request, parsing JSON data and dynamic tabs. 
 
-## Getting Started
+<img src="screen_shot.jpg" height="600em" />
 
-This project is a starting point for a Flutter application.
+# First Step
+Make sure to register at **https://newsapi.org/v2** to get your free license key. Copy and paste to assign it to variable **_apiKey** in following code below.
 
-A few resources to get you started if this is your first Flutter project:
+📄 lib/services/NewsApi.dart
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+    class NewsApi
+    {
+      final String _baseUrl = "https://newsapi.org/v2";
+    
+      final String _apiKey = "";
+     .
+     .
+    }
+
+	
+## Flutter Resources
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
